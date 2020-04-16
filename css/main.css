@@ -1,0 +1,127 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@500&display=swap');
+
+:root{
+	--main-color: #1873d6;
+	--main-color-dark: #104A89;
+}
+
+a{
+	color:var(--main-color);
+}
+
+a:hover{
+	color:var(--main-color-dark);
+	text-decoration:none;
+}
+
+.title-name{
+	font-family: 'Roboto Slab', serif;
+}
+
+.header{
+	padding:1.0em;
+	border-bottom:1px solid #ccc;
+}
+
+.header p{
+	font-size: 14pt;
+}
+
+.container h2{
+	padding:1em 0;
+    padding-bottom: 0.1em;
+    margin: 0 auto;
+    margin-bottom: 1.0em;
+	text-align:center;
+	width: 150px;
+    border-bottom: 3px solid var(--main-color);
+}
+
+.project-section{
+	padding-bottom:1em;
+}
+
+.project-section img{
+	width: 100%;
+    padding: 10px 0;
+}
+
+.project-section .card{
+	height:385px;
+}
+
+.project-section .card-img{
+	height:200px;
+	vertical-align: middle;
+    display: table-cell;
+}
+
+.project-section .d-flex{
+	position: absolute;
+	bottom:20px;
+	left:20px;
+	right:20px;
+}
+
+
+.project-section .btn-container{
+	padding-top:0.5em;
+}
+
+.resume-section{
+	border-top:1px solid #ccc;
+	border-bottom:1px solid #ccc;
+	padding-bottom:2em;
+}
+
+.resume-section img{
+	width:100%;
+	box-shadow:0 0 2px #ccc;
+}
+
+.btn-container{
+	width:120px;
+	height:60px;
+	margin:0 auto;
+	padding-top:2em;
+}
+
+.btn-container .btn{
+	width: 100%;
+	color: var(--main-color);
+    border-color: var(--main-color);
+}
+
+.btn-container .btn:hover{
+	color: #fff;
+    background-color: var(--main-color);
+}
+
+.btn-icon{
+	width:15px;
+	height:15px;
+	margin:2px;
+}
+
+.social-icon{
+	width:30px;
+	height:30px;
+	margin:10px;
+}
+
+.footer{
+	padding:1em 0;
+	position:fixed;
+	bottom:0;
+	left:0;
+	right:0;
+	border-top:1px solid #ccc;
+}
+
+.footer p{
+	margin:0;
+}
+
+.footer-padding{
+	padding-top:60px;
+}
